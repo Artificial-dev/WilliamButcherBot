@@ -1,4 +1,4 @@
-HEROKU = True  # NOTE Make it false if you're not deploying on heroku.
+HEROKU = False  # NOTE Make it false if you're not deploying on heroku.
 
 if HEROKU:
     from os import environ
@@ -18,23 +18,23 @@ if HEROKU:
     ARQ_API_URL = environ.get("ARQ_API_URL", None)
     ARQ_API_KEY = environ.get("ARQ_API_KEY", None)
 else:
-    BOT_TOKEN = "467677575:YZfaakjwd545dfg-N6JStihhuw5gQeZHntc"
-    API_ID = 123456
-    API_HASH = "dfxcgs5s12hdcxfgdfz"
+    BOT_TOKEN = "2057510429:AAHztwMDNuKL0lKKCm4r8kYI8TjjuFv3EPE"
+    API_ID = 8675599
+    API_HASH = "fbb92e01e221f45920e63eb7000e4e38"
     USERBOT_PREFIX = "."
-    PHONE_NUMBER = "+916969696969"  # Need for Helper Userbot
+    PHONE_NUMBER = "+919172303300"  # Need for Helper Userbot
     SUDO_USERS_ID = [
-        4543744343,
-        543214651351,
+        2037016301,
+        1734774195,
     ]  # Sudo users have full access to everythin, don't trust anyone
-    LOG_GROUP_ID = -100125431255
-    GBAN_LOG_GROUP_ID = -100125431255
-    MESSAGE_DUMP_CHAT = -1001181696437
+    LOG_GROUP_ID = -100791465910
+    GBAN_LOG_GROUP_ID = -100791465910
+    MESSAGE_DUMP_CHAT = -100659497913
     FERNET_ENCRYPTION_KEY = (
         "iKMq0WZMnJKjMQxZWKtv-cplMuF_LoyshXj0XbTGGWM="  # Leave this as it is
     )
     WELCOME_DELAY_KICK_SEC = 300
     MONGO_DB_URI = "mongodb+srv://username:password@cluster0.ksiis.mongodb.net/YourDataBaseName?retryWrites=true&w=majority"
-    ARQ_API_KEY = "Get this from @ARQRobot"
+    ARQ_API_KEY = "XAWHVD-NETMAO-CXXKCG-WNNVUP-ARQ"
     # NOTE Don't make changes below this line
     ARQ_API_URL = "http://thearq.tech"
